@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"pearls-grader-python/config"
-	"pearls-grader-python/server"
+	"go-run-python/config"
+	"go-run-python/server"
 )
 
 func main() {
