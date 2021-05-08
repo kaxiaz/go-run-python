@@ -1,0 +1,9 @@
+server:
+    port: 4110
+
+db:
+    host: "www.example.com"
+    port: 5432
+    user: "admin"
+    password: "test"
+    dbname: "postgres"
