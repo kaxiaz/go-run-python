@@ -24,8 +24,8 @@ func NewRouter() *gin.Engine {
 
 	pythonController := new(controller.PythonController)
 
-	r.POST("/python/run", pythonController.RunProgram)
-	r.POST("/python/evaluate", pythonController.EvaluateProgram)
+	r.GET("/python/run", pythonController.RunProgram)
+	r.GET("/python/evaluate", pythonController.EvaluateProgram)
 
 	r.Static("/file", "/go/bin/public")
 
